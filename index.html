@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <title>Đăng nhập và Đăng kí</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="forms">
+            <div class="form login active">
+                <span class="title">Đăng nhập</span>
+                <form action="#" method="post">
+                    <div class="input-field">
+                        <input type="text" placeholder="Email hoặc SĐT" required>
+                        <i class="uil uil-envelope-alt icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Mật khẩu" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Ghi nhớ tài khoản</label>
+                        </div>
+                        <a href="forgotpass.html" class="text">Quên mật khẩu</a>
+                    </div>
+                    <div class="input-field button">
+                        <input type="submit" value="Đăng nhập">
+                    </div>
+                    <div class="login-signup">
+                        <span class="text">Bạn chưa có tài khoản?
+                            <a href="#" class="text signup-link">Đăng kí</a>
+                        </span>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form signup">
+                <span class="title">Đăng kí</span>
+                <form action="#" method="post">
+                    <div class="input-field">
+                        <input type="text" placeholder="Họ và tên" required>
+                        <i class="uil uil-user icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="email" placeholder="Email" required>
+                        <i class="uil uil-envelope-alt icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Số điện thoại" required>
+                        <i class="uil uil-phone icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Mật khẩu" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Nhập lại mật khẩu" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="input-field button">
+                        <input type="submit" value="Đăng kí">
+                    </div>
+                    <div class="login-signup">
+                        <span class="text">Bạn đã có tài khoản?
+                            <a href="#" class="text login-link">Đăng nhập</a>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
